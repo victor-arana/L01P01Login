@@ -7,6 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<form action="autentificar" method="post">
+		<div>
+			<label>Nombre:</label>
+			<input type="text" name="nombre" value="${nombre}"/>			
+		</div>
+		<div>
+			<label>Password:</label>
+			<input type="password" name = "password"/>
+		</div>
+		<input type="submit" value = "Enviar"/>
+	</form>
 </body>
 </html>
