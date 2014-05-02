@@ -25,7 +25,7 @@ public class LoginController{
 		String vista = null;
 		if(usuarioService.validaUsuario(nombre, password)){
 			modelo.addAttribute("nombre", nombre);
-			vista = "bienvenido";
+			vista = "welcome";
 		}
 		else{
 			vista = "login";
